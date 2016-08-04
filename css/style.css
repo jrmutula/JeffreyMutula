@@ -1,15 +1,15 @@
 body{
-    margin: 0 auto;
-    width: 90%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 87.5%;
     line-height: 1.5;
-    text-align: left;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .maincontent{
     background: #fff;
     line-height: 25px;
+    margin: 0 auto;
     display: inline-block;
      /*remember to come put a border bottom here*/
 }
@@ -17,11 +17,9 @@ body{
 .myfoto img{
     width: 40%;
     padding-top: 50px;
-    bottom: 0;
+    clear: both;
     float: left;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    padding-left: 50px;
 }
 
 .spacetop{
@@ -38,7 +36,17 @@ body{
 .contentryt header h2{
     font-family: 'Pattaya', sans-serif;
     font-size: 54px;
-    padding: 40px 0 20px 30px;
+    padding: 40px 0 20px 0px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.contentryt footer h3{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -47,8 +55,45 @@ body{
 .contentryt article p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 36px;
-    padding: 0 0 20px 30px;
+    padding: 0 0 20px 0px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+}
+
+.empty{
+    
+}
+
+footer{
+    border-top: 4px solid #000;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    font-size: 15px;
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.socmed{
+    float: right;
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.socmed i{
+    padding: 5px;
 }
