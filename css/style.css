@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 87.5%;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.maincontent{
+    background: #fff;
+    line-height: 25px;
+}
+
+.myfoto img{
+    width: 30%;
+    width: 800px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
